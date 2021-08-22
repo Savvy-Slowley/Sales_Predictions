@@ -4,7 +4,9 @@ Here is the Data Dictionary for this dataset:
 
 Variable Name	Description:
 Item_Identifier	- Unique product ID
+
 Item_Weight - Weight of the product
+
 Item_Fat_Content - Whether the product is low fat or regular
 Item_Visibility - The percentage of the total display area of all products in a store allocated to the particular product
 Item_Type - The category to which the product belongs

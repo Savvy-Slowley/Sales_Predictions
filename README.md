@@ -4,10 +4,11 @@ Here is the Data Dictionary for this dataset:
 
 Variable Name	Description:
 Item_Identifier	- Unique product ID
-
+/n
 Item_Weight - Weight of the product
 /n
 Item_Fat_Content - Whether the product is low fat or regular
+/n
 Item_Visibility - The percentage of the total display area of all products in a store allocated to the particular product
 Item_Type - The category to which the product belongs
 Item_MRP - Maximum Retail Price (list price) of the product

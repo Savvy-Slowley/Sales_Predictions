@@ -3,6 +3,7 @@
 Here is the Data Dictionary for this dataset:
 
 Variable Name	Description:
+
 Item_Identifier	- Unique product ID
 
 Item_Weight - Weight of the product

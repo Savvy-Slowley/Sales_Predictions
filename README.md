@@ -1,32 +1,50 @@
 # Overview
 
-This project will be a sales prediction for food items sold at various stores. I will demostrate decision making through data cleaning, complete any statistical analyses that might help you understand, explain, or model with your data.build several data visualizations to help your stakeholders better understand trends in the data.your task is to use Linear Regression to create and evaluate a model to predict sales:
+This project is a sales prediction for food items sold at various stores. Throughout this project I will clean the data, build several data visualizations to help understand 
+trends in the data. Statiscal analsis which included building models such as Linear Regression, Decision Tree, Bagged Tree and Random Forest were performed to
+evaluate predicted sales. These models would give us the Coefficient of Determination(R^2), Mean Absolute Error(MAE), Mean Squared Error(MSE) and Root Mean Squared Error(RMSE).
 
-Use the data you have cleaned in previous weeks. 
-Spend time transforming your categorical variables into numbers and use dummy encoding where appropriate.
-Here are some resources to use when dealing with categorical variables:
-Dealing with categorical features in machine learning
-Categorical Data
-Here’s All you Need to Know About Encoding Categorical Data (with Python code)
-Assign the "Item_Outlet_Sales" column as your target and the rest of the variables as your features matrix.  
-Be sure to train test split your data set!
-Build a linear regression model.
-Evaluate your test set results using r2.
-Evaluate your test set results using RMSE
-Which features are most associated with higher predicted sales?
-Your task is to build tree based models to predict sales and compare evaluation metrics for regression problems.  
+The model results are:
 
-Build and evaluate a simple decision tree model.
-Build and evaluate a bagged tree model.
-Build and evaluate a random forest model.  
-You now have tried at least 4 models on this data set (including the regression model from last week).  Compare the performance of your models based on r^2.
-Compare the performance of your models based on rmse.  
-Overall, which model do you recommend?
+Linear Regression Coefficient of Determination Training(R^2): 0.5605674972816823
+
+Linear Regression Coefficient of Determination Training(R^2): 0.565852830468762
+
+Decision Tree Coefficient of Determination Training(R^2): 0.6039335724587842
+
+Decision Tree Coefficient of Determination Training(R^2): 0.5947071437341442
+
+Bagged Tree Coefficient of Determination Training(R^2): 0.918204518459746
+
+Bagged Tree Coefficient of Determination Training(R^2): 0.5213957056291549
+
+Random Forests Coefficient of Determination Training(R^2): 0.6105371373976064
+
+Random Forests Coefficient of Determination Training(R^2): 0.6025520510628769
 
 
-# Data Dictionary
+Linear Regression Root Mean Squared Error Training: 1140.3863498499568
 
-Here is the Data Dictionary for this dataset:
+Linear Regression Root Mean Squared Error Testing: 1094.4414924070775
+
+
+Decision Tree Root Mean Squared Error Training: 1082.6546302299298
+
+Decision Tree Root Mean Squared Error Testing: 1057.4468238865645
+
+
+Bagged Tree Root Mean Squared Error Training: 492.0062036690201
+
+Bagged Tree Root Mean Squared Error Testing: 1149.1119954190244
+
+
+Random Forests Root Mean Squared Error Training: 1073.5912119749757
+
+Random Forests Root Mean Squared Error Testing: 1047.1627687245482
+
+Based off of the results of the RMSE and R^2 Random Forests Tree would be our best model. Through more analsis of each model the majority of the features in the Decision Tree, Bagged Tree and Random Forest models had no impact on the model. This made the linear regression model the most accurate model because of it's utization of every feature in determining the R^2 and RMSE values. 
+
+# Data Dictionary for this dataset
 
 Variable Name	Description:
 

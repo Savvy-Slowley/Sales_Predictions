@@ -42,7 +42,7 @@ Random Forests Root Mean Squared Error Training: 1073.5912119749757
 
 Random Forests Root Mean Squared Error Testing: 1047.1627687245482
 
-Based off of the results of the RMSE and R^2 Random Forests Tree would be our best model. Through more analsis of each model the majority of the features in the Decision Tree, Bagged Tree and Random Forest models had no impact on the model. This made the linear regression model the most accurate model because of it's utization of every feature in determining the R^2 and RMSE values. 
+Based off of the results of the RMSE and R^2 Random Forests Tree would be our best model. Through more analsis of each model the majority of the features in the Decision Tree, Bagged Tree and Random Forest models had no impact on the model. This made the linear regression the most accurate model because of it's utization of every feature in determining the R^2 and RMSE values. 
 
 # Data Dictionary for this dataset
 

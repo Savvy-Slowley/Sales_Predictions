@@ -1,4 +1,5 @@
 # Overview
+WILL BE UPDATED
 Data from https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/.
 ### Generating and Cleaning the Data
 This project is a sales prediction for food items sold at various stores. The first step after generating the data is data cleaning. While I was data cleaning I checked for duplications and then null values. There were no duplications within the data however there were two columns("Outlet_Size" and "Item_Weight") with null values. I started with "Outlet_Size" where I looked for a trend between it and other columns. I realized quickly that "Outlet_Size" and "Outlet_Location_Type" had a relationship between them where  'Tier 3' = 'Medium' ,  'Tier 1' = 'Small' and 'Tier 2' = 'Large'( I changed the word 'High' to 'Large'). For the "Item_Weight" column I made a histogram and saw the weights were evenly distributed and I filled the remaining null values with the mean of "Item_Weight".  I then quickly checked all the value counts for each column to see if there is any data imputed incorrectly. I changed 'low fat' and 'LF' to 'Low Fat'. I also changed 'reg' to 'Regular'. 
